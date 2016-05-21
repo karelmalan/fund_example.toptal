@@ -11,7 +11,7 @@ func NewFund(initialBalance int) *Fund {
     // whether it's on the stack or heap: Go figures that out for us.
     return &Fund{
         balance: initialBalance,
-    }
+    
 }
 
 // Methods start with a *receiver*, in this case a Fund pointer
